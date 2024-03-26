@@ -16,8 +16,6 @@ img {
   display: block;
 }
 
-
-
 /*BUTTON*/
 .btn {
   width: 130px;
@@ -91,7 +89,6 @@ img {
 
 
 
-
 /*INNER*/
 .inner {
   height: auto;
@@ -108,21 +105,20 @@ header {
   position: fixed;
   top: 0;
   z-index: 9;
-  border-bottom: 1px solid #c8c8c8;
+  /* border-bottom: 1px solid #c8c8c8; */
 }
 
 header > .inner {
   height: 120px;
-    background-color: whitesmoke;
-
+  background-color: whitesmoke;
 }
 
 header .logo {
   height: 75px;
   position: absolute;
   top: 0;
-  bottom: 0px;
-  left: 0px;
+  bottom: 10px;
+  left: 15px;
   right: 0;
   margin: auto;
 }
@@ -159,6 +155,7 @@ header .sub-menu ul.menu li a:hover{
 header .sub-menu ul.menu li{
   position: relative;
 }
+
 header .sub-menu ul.menu li::before{
   /* 컨텐츠 공백 앞에 */
   content : "";
@@ -170,9 +167,11 @@ header .sub-menu ul.menu li::before{
   bottom: 0;
   margin: auto;
 }
+
 header .sub-menu ul.menu li:first-child::before{
   display: none;
 }
+
 header .sub-menu .search input{
   position: relative;
   width: 36px;
@@ -188,8 +187,7 @@ header .sub-menu .search input{
   background-color: #fff;
   font-size: 12px;
   transition: width, 4s;
-  /* margin: 5px;  */
-  /* 상단 마진 추가 */
+  margin: 0 10px 0 0;
 }
 
 header .sub-menu .search input:focus{
@@ -202,8 +200,9 @@ header .sub-menu .search .material-symbols-outlined{
   top: 0;
   bottom: 0;
   right: 5px;
-  margin: auto;
   transition: .4s;
+  margin: 3px 8px 0 0;
+
 }
 
 header .sub-menu .search{
@@ -216,7 +215,7 @@ header .sub-menu .search.focused .material-symbols-outlined{
   opacity: 0;
 }
 
-/* main-menu */
+/* main-menu 설정*/
 header .main-menu {
   position: absolute;
   bottom: 0;
@@ -229,9 +228,10 @@ header .main-menu .item .item__name {
   font-family: 'NexonMaplestory', sans-serif;
   font-size: 13px;
 }
+/* 메인메뉴 bar */
 header .main-menu .item:hover .item__name {
   background-color:  rgb(3, 74, 3);
-  color: #EA9926;
+  color: #fff;
   border-radius: 6px 6px 0 0;
 }
 header .main-menu .item .item__contents {
@@ -245,9 +245,7 @@ header .main-menu .item:hover .item__contents {
 }
 
 header .main-menu .item .item__contents .contents__menu {
-  /* background-color: #2C2A29; */
   background-color: rgb(3, 74, 3);
-
 }
 header .main-menu .item .item__contents .contents__menu > ul {
   padding: 20px 0;
@@ -267,9 +265,11 @@ header .main-menu .item .item__contents .contents__menu > ul > li ul li {
   color: #999;
   cursor: pointer;
 }
+
 header .main-menu .item .item__contents .contents__menu > ul > li ul li:hover {
-  color: rgb(3, 74, 3);;
+  color: #fff;
 }
+
 header .main-menu .item .item__contents .contents__texture {
   padding: 26px 0;
   font-size: 12px;
@@ -283,7 +283,6 @@ header .main-menu .item .item__contents .contents__texture h4 {
   font-weight: 900;
 }
 header .main-menu .item .item__contents .contents__texture p {
-  /* color: #EA9926; */
   color: rgb(3, 74, 3);
   margin: 4px 0 14px;
 }
@@ -878,6 +877,7 @@ footer .copyright {
 }
 footer .logo {
   margin: 30px auto 0;
+  width: 90px;
 }
 
 
