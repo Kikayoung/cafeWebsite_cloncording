@@ -363,7 +363,7 @@ header .badges .badge {
 .notice .bg-left {
   width: 50%;
   height: 100%;
-  background-color: #333;
+  background-color:  rgb(3, 74, 3);
   position: absolute;
   top: 0;
   left: 0;
@@ -382,7 +382,7 @@ header .badges .badge {
 }
 .notice .inner__left {
   width: 70%;
-  background-color: #333;
+  background-color:  rgb(3, 74, 3);
   display: flex;
   align-items: center;
 }
@@ -436,6 +436,7 @@ header .badges .badge {
 .notice .inner__right .toggle-promotion .material-icons {
   font-size: 30px;
 }
+
 /*PROMOTION*/
 .promotion {
   display: flex;
@@ -491,7 +492,7 @@ header .badges .badge {
 .promotion .swiper-button-next {
   width: 42px;
   height: 42px;
-  border: 2px solid #333;
+  border: 2px solid rgb(3, 74, 3);
   border-radius: 50%;
   top: 300px;
   z-index: 1;
@@ -565,7 +566,7 @@ header .badges .badge {
 .youtube {
   position: relative;
   height: 700px;
-  background-color: #333;
+  background-color: rgb(3, 74, 3);
   overflow: hidden;
 }
 .youtube .youtube__area {
@@ -636,7 +637,7 @@ header .badges .badge {
 
 /*RESERVE COFFEE*/
 .reserve-coffee {
-  background-image: url("../images/reserve_bg.jpg");
+  background-image: url("../my_image/caffesoga.jpg");
 }
 .reserve-coffee .inner {
   height: 400px;
@@ -686,7 +687,7 @@ header .badges .badge {
 
 /*RESERVE STORE*/
 .reserve-store {
-  background-image: url("../images/reserve_store_bg.jpg");
+  background-image: url("../my_image/window2.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
